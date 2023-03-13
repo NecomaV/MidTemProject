@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+	<meta charset="utf-8">
+	<title>MidTermProject</title>
+	<link rel="stylesheet" href="style.css">
+	<link  rel="stylesheet" href ="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+	<script src="https://kit.fontawesome.com/868a5b005d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+	<div class="banner">
+		<header>
+			<a href="#" class="logo">MidTerm Project</a>
+			<div class="main" id="mainbox" onclick="openFunction()"class="o"><a>&#9776;</a></div>
+				<div class="sidemenu" id="menu">
+					<a onclick="closeFunction()" class="q">&times;</a>		
+					<ul>
+						<li><a href="second.html">Contact me</a></li>
+					</ul>
+				</div>
+
+		</header>
+		
+		<img src="img/bg.jpg">
+		<div class="content" data-0-top="opacity:0;left:100px;" data-200-top="opacity:1;left:0px;">
+			<h2>Hello My name is Temirlan!</h2>
+			<p>And this is my MidTerm Project that I've been working! I hope you will see what I have learned for past 6 weeks of Front End Development, starting with just choosing colors, box-models till adding some easy scripts.</p>
+		</div>
+	</div>
+	<section class="about">
+		<div class="contentBx">
+			<h2 class="heading" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:400px;">Some Motivation quotes</h2>
+			<p class="text" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:-100px;">“Any fool can write code that a computer can understand. Good programmers write code that humans can understand.” – Martin Fowler<br><br> Sometimes it pays to stay in bed on Monday, rather than spending the rest of the week debugging Monday’s code.” – Dan Salomon  <br><br>
+			“Perfection is achieved not when there is nothing more to add, but rather when there is nothing more to take away.” – Antoine de Saint-Exupery </p>
+		</div>
+		<div class="imgBx">
+		</div>
+	</section>
+	<section class="services">
+		<h2 class="heading" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:400px;">Key Elements that I have learned</h2>
+		<p class="text" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right:400px;">What I might learn in 7 weeks? Decent question, I also thought in that way. But surprisingly it did a great job, and partly learned these:</p>
+		<div class="container">
+			<div class="serviceBx"data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:-400px;">
+				<div>
+					<img src="img/fimg.png" height="150px">
+					<h2>Write</h2>
+				</div>
+			</div>
+			<div class="serviceBx" data-center-center="opacity:1;bottom:0px;" data-0-bottom="opacity:0;bottom:-400px;">
+				<div>
+					<img src="img/simg.png" >
+					<h2>Desing</h2>
+				</div>
+			</div>
+			<div class="serviceBx" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right:-400px;">
+				<div>
+					<img src="img/timg.png" height="120px" width="140px" class="third-img">
+					<h2 class="third-div">Code</h2>
+				</div>
+			</div>
+	</section>
+
+	<section class="technology">
+		<div сlass="contentBx">
+			<h2 class="heading" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:400px;">What I have learned</h2>
+			<p class="text">Through out the course, I got to meet HTML5, CSS3 and JavaScript. I can't say that I am fully know them and can work really well, but still I got something to do with. Html and Css got 'em better than js, honestly right now I can use only easy scripts, and stil I know how to use it, and it makes my projects look more decent.</p>
+		</div>
+		<div class="imgBx">
+			<img src="img/tech.png">
+		</div>
+	</section>
+	<section class="client">
+		<h2 class="heading" data-center-center="opacity:1;right:0px;" data-0-bottom="opacity:0;right:300px;">Goals to achive</h2>
+		<p class="text">"Had to have high hopes for living, didn't know how but I always got a feeling, that I am gonna be that one from a million." Having abitious goals is the way to succes, here is the companies that can be  one of the huge goals to accomplish.</p>
+		<div class="imgBx">
+			<img src="img/google.png">
+			<img src="img/faceb.png">
+			<img src="img/amazon.png">
+			<img src="img/whats.png">
+		</div>
+	</section>
+	<section class="testimonials">
+		<h2 class="heading" data-center-center="opacity:1;left:0px;" data-0-bottom="opacity:0;left:50px;">Some words from true masters of web development</h2>
+		<div class="container">
+			<div class="contentBx">
+				<div>
+					<p>“The public is more familiar with bad design than good design. It is, in effect, conditioned to prefer bad design, because that is what it lives with. The new becomes threatening, the old reassuring.”</p>
+					<h3>– Paul Rand</h3>
+				</div>
+			</div>
+			<div class="contentBx">
+				<div>
+					<p>“A designer knows he has achieved perfection not when there is nothing left to add, but when there is nothing left to take away.”</p>
+					<h3>– Antoine de Saint-Exupéry</h3>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="footer">
+		<p class="text">Coded by Temirlan Beken for MidTerm Project</p>
+		<ul>
+			<p class="text">Folllow me on: </p>
+			<li><a href="https://www.facebook.com/"><img src="img/faceb.png"></a></li>
+			<li><a href="https://web.whatsapp.com/"><img src="img/whats.png"></a></li>
+		</ul>
+	</section>
+
+	
+<script type="text/javascript">
+	
+	function openFunction(){
+		document.getElementById("menu").style.width="300px";
+		document.getElementById("mainbox").style.marginLeft="300px";
+
+	}
+	function closeFunction(){
+		document.getElementById("menu").style.width="0px";
+		document.getElementById("mainbox").style.marginLeft="0px";
+		document.getElementById("mainbox").innerHTML = "&#9776";
+	}
+
+</script>
+<script src="skrollr.js"></script>
+<script type="text/javascript">
+	var s = skrollr.init();
+</script>
+
+</body>
+</html>
